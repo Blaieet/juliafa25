@@ -145,7 +145,7 @@ export const projects = {
 };
 
 export const experience = [
-        {
+    {
         title: "'Avui'",
         duration: "19 de Juny de 2024",
         subtitle: "Bunyol",
