@@ -8,12 +8,6 @@ export const bio = [
 
 export const skills = [
     {
-        title: "Languages",
-        skillName: "Amor cap als demés",
-        color: "1",
-        percentage: "80",
-    },
-    {
         title: "Frameworks/Libraries",
         skillName: "Vegades que s'ha arribat tard",
         color: "6",
@@ -151,52 +145,70 @@ export const projects = {
 };
 
 export const experience = [
-    {
-        title: "Shiprocket (Bigfoot Solution Private Limited)",
-        duration: "September 2022 - Present",
-        subtitle: "Software Engineer",
+        {
+        title: "'Avui'",
+        duration: "19 de Juny de 2024",
+        subtitle: "Bunyol",
         details: [
-            "Working in support and escalation team."
+            `T'estimo, espero que t'agradi. Això només fa que començar.`
         ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-        icon: "truck ",
+        icon: "heartbeat ",
     },
     {
-        title: "Biofourmis India Private Limited",
-        duration: "April 2022 - Jul 2023",
-        subtitle: "Software Engineer",
+        title: "'Per mi ja sóm novios'",
+        duration: "14 d'Abril de 2024",
+        subtitle: "Girasol",
         details: [
-            `Implemented microfrontends using the Module Federation Plugin in Angular.
-            Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
-            `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
-            recognition with the Biofourmis Bravo award in Q1, 2023.`,
-            `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
-            `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
-            `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
-            `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
-            management, and enhanced application performance.`,
-            `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
-            `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
-            resulting in reduced audio issues and increased user satisfaction.`,
-            `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
-            and enhancing features.`,
+            `El que portava somiant es feia realitat. L'alegria de veure que si era possible,
+            el que s'havia que era l'inici de veritat.`
         ],
-        tags: ["JavaScript", "Angular", "RxJS", "NGXS", "TypeScript", "RxState", "Webpack", "Optimization"],
+        icon: "heartbeat ",
+    },
+    {
+        title: "'Vull intentar-ho'",
+        duration: "24 de Gemer de 2024",
+        subtitle: "Tremendu",
+        details: [
+            `Sembla una tonteria però va ser l'inci del que ens ha portat fins aquí.
+            Gràcies per confiar amb mi.
+            'M'he cosit la pell del cor,
+            He sobreviscut l'amor'`
+        ],
+        icon: "heartbeat ",
+    },
+    {
+        title: "Dia C",
+        duration: "16 de Desembre de 2023",
+        subtitle: "C de crisis",
+        details: [
+            `El dia que ho va canviar tot. Pels dos, però especialment per mi. No sabré mai el dolor que vas viure,
+            pèro segueixo mantenint tot el que et vaig prometre. 
+            'I si hem de tornar a començar serà quan tot exploti
+            Potser res és com era abans ni gira igual
+            Qui sap si quedarà bonic, o si tenim a prop la fi
+            No em fa por el futur'`
+        ],
+        icon: "heartbeat ",
+    },
+    {
+        title: "Noviazgo",
+        duration: "27 de Juliol de 2022",
+        subtitle: "Malniu - Estany dels Emparellats",
+        details: [
+            `Quin viatjet i què a gust vaig estar.
+            Quin valor de treure't la conversa. No, tu no anaves a fer-ho 🙃`
+        ],
         icon: "heartbeat",
     },
     {
-        title: "Novopay Solutions Private Limited",
-        duration: "June 2020 - April 2022",
-        subtitle: "Software Engineer",
+        title: "Primera Cita",
+        duration: "1 d'Abril 2022",
+        subtitle: "Bar de la Xime",
         details: [
-            `Implemented AePS Services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements,
-            and Money transfer.`,
-            `Implemented QR Code integration for retailer wallet money loading, Clevertap events for user action tracking,
-            Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.`,
-            `Developed retailer QR code system for seamless money loading into wallets, resulting in improved user transactions.`,
-            `Achieved 70 percent code coverage of the entire application by writing unit tests for legacy code.`,
+            `Segurament la primera vegada que no vas arribar exageradament tard.
+            Vens d'Esplugues? Jo visc aqui al costat, anem al Sant Bartomeu?
+            - No.`,
         ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
         icon: "qrcode",
     },
     {
@@ -206,93 +218,30 @@ export const experience = [
         details: [
             `Aquella foto en el penya segat a mi em va enamorar. Quins rinxolssss.`,
         ],
-        icon: "group",
+        icon: "heart-circle-plus",
     },
 ];
 
-export const education = [
-    {
-        title: "B.Tech. in Computer Science and Engineering",
-        duration: "2016 - 2020",
-        subtitle: "National Institute of Technology, Warangal",
-        details: [],
-        tags: [
-            "Data Structures & Algorithms",
-            "Operating Systems",
-            "Database Management System",
-            "Computer Networks",
-            "Compiler Designing",
-            "Cloud Computing",
-        ],
-        icon: "graduation-cap",
-    },
-    {
-        title: "Class 12th in Science and Mathematics",
-        duration: "",
-        subtitle: "Board of Secondary Education, Rajasthan",
-        details: [],
-        tags: ["Physics", "Chemistry", "Mathematics"],
-        icon: "book",
-    },
-];
+
 
 export const footer = [
     {
-        label: "Dev Profiles",
+        label: "Cosetes",
         data: [
             {
-                text: "Stackoverflow",
-                link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-            },
-            {
-                text: "GitHub",
-                link: "https://github.com/vinaysomawat",
-            },
-            {
-                text: "LeetCode",
-                link: "https://leetcode.com/somawatvinay/",
-            },
-        ],
-    },
-    {
-        label: "Resources",
-        data: [
-            {
-                text: "Enable Dark/Light Mode",
+                text: "Mode Blanc / Negre",
                 func: "enableDarkMode()",
             },
             {
                 text: "Print this page",
                 func: "window.print()",
             },
-            {
-                text: "Clone this page",
-                link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-            },
-        ],
-    },
-    {
-        label: "Social Profiles",
-        data: [
-            {
-                text: "Linkedin",
-                link: "https://www.linkedin.com/in/vinaysomawat/",
-            },
-            {
-                text: "Twitter",
-                link: "https://twitter.com/thesigmakid",
-            },
-            {
-                text: "Buy me a coffee",
-                link: "https://www.buymeacoffee.com/r194dME8y",
-            },
         ],
     },
     {
         label: "copyright-text",
         data: [
-            "Made with &hearts; by Vinay Somawat.",
-            "&copy; No Copyrights. Feel free to use this template.",
+            "Fet amb amor, &hearts; per Blai Ras.",
         ],
     },
 ];
