@@ -1,53 +1,53 @@
 export const bio = [
-    "Hello there, This is Vinay Somawat.",
-    `Experienced Frontend Software Engineer with a strong track record of successfully upgrading applications, optimizing performance, and delivering innovative solutions.`,
-    `Eager to apply my technical expertise and in-depth
-    product understanding to drive impactful contributions and exceed expectations in challenging projects.`,
-    "Thanks for taking the time to learn a little about me!",
+    "Benvinguts a Restaurant Bunyol.",
+    `L'esdeveniment que ens acompanya avui és ni més ni menys que l'aniversari de l'actual reina de la casa, la Júlia, que en fa 25.`,
+    `Nascuda l'any 1999, actualment es considera la millor persona en entrar a la vida d'en Blai Ras, fundador d'aquest humil restaurant.
+    Espero que pugueu disfrutar de la vetllada!`,
+    "- Restaurant el Bunyol",
 ];
 
 export const skills = [
     {
         title: "Languages",
-        skillName: "JavaScript, TypeScript",
+        skillName: "Amor cap als demés",
         color: "1",
         percentage: "80",
     },
     {
         title: "Frameworks/Libraries",
-        skillName: "Angular, RxJS, NGXS",
+        skillName: "Vegades que s'ha arribat tard",
         color: "6",
         percentage: "70",
     },
     {
         title: "Design",
-        skillName: "HTML, Bootstrap, Tailwind",
+        skillName: "Cul",
         color: "4",
-        percentage: "70",
+        percentage: "100",
     },
     {
         title: "Version Control",
-        skillName: "GitHub, JIRA, Bitbucket",
+        skillName: "Quantitat de 'puto nen' dits",
         color: "7",
-        percentage: "70",
+        percentage: "10",
     },
     {
         title: "Tools",
-        skillName: "Postman, Chrome DevTools",
+        skillName: "Mímica",
         color: "3",
-        percentage: "80",
+        percentage: "15",
     },
     {
         title: "Analytics",
-        skillName: "CleverTap, Countly",
+        skillName: "Ping-Pong",
         color: "5",
-        percentage: "50",
+        percentage: "100",
     },
     {
         title: "IDE",
-        skillName: "VS Code",
+        skillName: "Quantitat de vegades que ens hem enfadat",
         color: "6",
-        percentage: "70",
+        percentage: "0",
     },
 ];
 
@@ -200,13 +200,12 @@ export const experience = [
         icon: "qrcode",
     },
     {
-        title: "ThinkPedia LLP",
-        duration: "May 2019 - June 2019",
-        subtitle: "SDE Intern",
+        title: "Match",
+        duration: "Març 10, 2022",
+        subtitle: "Amor a primera vista",
         details: [
-            `Developed a customer web application for social media management, supporting the advertisement domain.`,
+            `Aquella foto en el penya segat a mi em va enamorar. Quins rinxolssss.`,
         ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
         icon: "group",
     },
 ];
