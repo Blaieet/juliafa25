@@ -49,97 +49,54 @@ export const projects = {
     webProjects: [
         {
             projectName: "Programming Diaries",
-            image: "images/programmingdiaries.png",
+            image: "images/hummus.png",
             summary:
-                "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
+                "Delicios Hummus del país amb excel·lents crostons per acompanyar",
             preview: "https://programmingdiaries.herokuapp.com/",
-            techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
+            techStack: [""],
         },
         {
             projectName: "Find Your Bank",
-            image: "images/findyourbank.png",
+            image: "images/buti.png",
             summary:
-                "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
+                "Llonces de botifarra curada d'ou de gallines lliures",
             preview: "https://clever-fermi-0d5d76.netlify.app",
-            techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
+            techStack: [""],
         },
         {
-            projectName: "Web Portfolio",
-            image: "images/portfolio.png",
+            projectName: "Daus de patata amb herbes de l'Empordà",
+            image: "images/brava.jpg",
             summary:
                 "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
             preview: "https://github.com/vinaysomawat/Travographer-Portal",
-            techStack: ["HTML", "Bootstrap", "JavaScript"],
-        },
-        {
-            projectName: "Resume Builder",
-            image: "images/resume-builder.png",
-            summary:
-                "Browser based editor to build and download Resumes in a customizable templates.",
-            preview: "https://vinaysomawat.github.io/Resume-Builder",
-            techStack: ["HTML", "Bootstrap", "JavaScript"],
-        },
+            techStack: [""],
+        }
     ],
     softwareProjects: [
         {
             projectName: "Pizza Ordering ChatBot",
-            image: "images/pizzaorderchatbot.png",
+            image: "images/fcrepe.jpg",
             summary:
-                "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
+                "'La mimada', Crêpe de formatge curat d'ovella amb embotit vegà",
             preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
             techStack: ["Dailogflow", "Firebase"],
         },
         {
             projectName: "WhatsApp-Bot",
-            image: "images/whatsappbot.jpg",
+            image: "images/crepe.png",
             summary:
-                "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
+                "'El Marquès fumat', Crêpe de Mortadela fumada amb toc d'espècies del Litoral",
             preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-            techStack: ["Selenium", "Chrome Webdriver", "Python"],
-        },
-        {
-            projectName: "Bill Generator",
-            image: "images/billgenerator.png",
-            summary:
-                "GUI to transfer data to excel sheets and generate bills on the local shops.",
-            preview: "https://github.com/vinaysomawat/Bill-Generator",
-            techStack: ["Tkinter", "Openxlpy", "Python"],
-        },
-    ],
+            techStack: [""],
+        },    ],
     androidProjects: [
         {
             projectName: "NITW-CSE",
-            image: "images/nitwcse.jpg",
+            image: "images/mace.jpg",
             summary:
-                "The Application display details of Department courses, reference books, research, publication and faculty profile.",
+                "Macedònia de la Costa Brava",
             preview: "https://github.com/vinaysomawat/NITW-CSE",
-            techStack: ["JAVA", "XML", "Android"],
-        },
-        {
-            projectName: "CareerHigh-App",
-            image: "images/carrerhigh.png",
-            summary:
-                "The Application display the webpages of website careerhigh.in in android devices.",
-            preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-            techStack: ["JAVA", "XML", "Android"],
-        },
-    ],
-    freelanceProjects: [
-        {
-            projectName: "SnylloAir.com",
-            image: "images/snylloair.png",
-            summary:
-                "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-            preview: "https://www.snylloair.com/",
-            techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-        },
-        {
-            projectName: "Delivery+",
-            image: "images/AM-Logo-.png",
-            summary: "Android Application to display website in android devices.",
-            preview:
-                "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-            techStack: ["Android", "JAVA", "Play Store"],
+            techStack: [""],
         },
     ],
 };
@@ -153,7 +110,7 @@ export const experience = [
             `T'estimo, espero que t'agradi. Això només fa que començar.`
         ],
         tags: [""],
-        icon: "heartbeat ",
+        icon: "birthday-cake",
     },
     {
         title: "'Per mi ja sóm novios'",
@@ -164,7 +121,7 @@ export const experience = [
             el que s'havia que era l'inici de veritat.`
         ],
         tags: [""],
-        icon: "heartbeat ",
+        icon: "repeat",
     },
     {
         title: "'Vull intentar-ho'",
@@ -172,12 +129,10 @@ export const experience = [
         subtitle: "Tremendu",
         details: [
             `Sembla una tonteria però va ser l'inci del que ens ha portat fins aquí.
-            Gràcies per confiar amb mi.
-            'M'he cosit la pell del cor,
-            He sobreviscut l'amor'`
+            Gràcies per confiar amb mi.`
         ],
-        tags: [""],
-        icon: "heartbeat ",
+        tags: ["'M'he cosit la pell del cor, He sobreviscut l'amor'"],
+        icon: "ambulance",
     },
     {
         title: "Dia C",
@@ -186,23 +141,20 @@ export const experience = [
         details: [
             `El dia que ho va canviar tot. Pels dos, però especialment per mi. No sabré mai el dolor que vas viure,
             pèro segueixo mantenint tot el que et vaig prometre. 
-            'I si hem de tornar a començar serà quan tot exploti
-            Potser res és com era abans ni gira igual
-            Qui sap si quedarà bonic, o si tenim a prop la fi
-            No em fa por el futur'`
+            `
         ],
-        tags: [""],
-        icon: "heartbeat ",
+        tags: ["'I si hem de tornar a començar serà quan tot exploti, Potser res és com era abans ni gira igual. Qui sap si quedarà bonic, o si tenim a prop la fi No em fa por el futur'"],
+        icon: "heartbeat",
     },
     {
         title: "Noviazgo",
         duration: "27 de Juliol de 2022",
         subtitle: "Malniu - Estany dels Emparellats",
         details: [
-            ``
+            `Quin viatjet i què a gust vaig estar. Quin valor de treure't la conversa.`
         ],
-        tags: ["Quin viatjet i què a gust vaig estar. Quin valor de treure't la conversa. No, tu no anaves a fer-ho 🙃`"],
-        icon: "heartbeat",
+        tags: ["No, tu no anaves a fer-ho 🙃"],
+        icon: "sun-o",
     },
     {
         title: "Primera Cita",
@@ -214,7 +166,7 @@ export const experience = [
             - No.`,
         ],
         tags: ["Si la vida és un incendi, cantarem sota la pluja"],
-        icon: "qrcode",
+        icon: "heart",
     },
     {
         title: "Match",
@@ -224,7 +176,7 @@ export const experience = [
             `Aquella foto en el penya segat a mi em va enamorar. Quins rinxolssss.`,
         ],
         tags: ["LSCLGDV"],
-        icon: "heart",
+        icon: "hand-o-right",
     },
 ];
 
