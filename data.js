@@ -187,7 +187,7 @@ export const experience = [
             pèro segueixo mantenint tot el que et vaig prometre. 
             `
         ],
-        tags: ["'I si hem de tornar a començar serà quan tot exploti, Potser res és com era abans ni gira igual. Qui sap si quedarà bonic, o si tenim a prop la fi No em fa por el futur'"],
+        tags: ["'I jo no penso llençar el teu respall de dents'"],
         icon: "heartbeat",
     },
     {
