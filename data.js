@@ -208,27 +208,22 @@ export const experience = [
 
 export const education = [
     {
-        title: "B.Tech. in Computer Science and Engineering",
-        duration: "2016 - 2020",
-        subtitle: "National Institute of Technology, Warangal",
+        title: "B",
+        duration: "",
+        subtitle: "",
         details: [],
         tags: [
-            "Data Structures & Algorithms",
-            "Operating Systems",
-            "Database Management System",
-            "Computer Networks",
-            "Compiler Designing",
-            "Cloud Computing",
+            "",
         ],
         icon: "graduation-cap",
     },
     {
-        title: "Class 12th in Science and Mathematics",
+        title: "",
         duration: "",
-        subtitle: "Board of Secondary Education, Rajasthan",
+        subtitle: "",
         details: [],
-        tags: ["Physics", "Chemistry", "Mathematics"],
-        icon: "book",
+        tags: ["", ""],
+        icon: "",
     },
 ];
 
