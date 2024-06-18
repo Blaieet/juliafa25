@@ -152,6 +152,7 @@ export const experience = [
         details: [
             `T'estimo, espero que t'agradi. Això només fa que començar.`
         ],
+        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
         icon: "heartbeat ",
     },
     {
@@ -162,6 +163,7 @@ export const experience = [
             `El que portava somiant es feia realitat. L'alegria de veure que si era possible,
             el que s'havia que era l'inici de veritat.`
         ],
+        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
         icon: "heartbeat ",
     },
     {
@@ -174,6 +176,7 @@ export const experience = [
             'M'he cosit la pell del cor,
             He sobreviscut l'amor'`
         ],
+        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
         icon: "heartbeat ",
     },
     {
@@ -188,6 +191,7 @@ export const experience = [
             Qui sap si quedarà bonic, o si tenim a prop la fi
             No em fa por el futur'`
         ],
+        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
         icon: "heartbeat ",
     },
     {
@@ -198,6 +202,7 @@ export const experience = [
             `Quin viatjet i què a gust vaig estar.
             Quin valor de treure't la conversa. No, tu no anaves a fer-ho 🙃`
         ],
+        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
         icon: "heartbeat",
     },
     {
@@ -209,6 +214,7 @@ export const experience = [
             Vens d'Esplugues? Jo visc aqui al costat, anem al Sant Bartomeu?
             - No.`,
         ],
+        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
         icon: "qrcode",
     },
     {
@@ -218,6 +224,7 @@ export const experience = [
         details: [
             `Aquella foto en el penya segat a mi em va enamorar. Quins rinxolssss.`,
         ],
+        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
         icon: "heart-circle-plus",
     },
 ];
