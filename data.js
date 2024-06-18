@@ -65,7 +65,7 @@ export const projects = {
         },
         {
             projectName: "Daus de patata amb herbes de l'Empordà",
-            image: "images/brava.jpg",
+            image: "images/brava.png",
             summary:
                 "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
             preview: "https://github.com/vinaysomawat/Travographer-Portal",
@@ -75,7 +75,7 @@ export const projects = {
     softwareProjects: [
         {
             projectName: "Pizza Ordering ChatBot",
-            image: "images/fcrepe.jpg",
+            image: "images/fcrepe.webp",
             summary:
                 "'La mimada', Crêpe de formatge curat d'ovella amb embotit vegà",
             preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
@@ -92,7 +92,7 @@ export const projects = {
     androidProjects: [
         {
             projectName: "NITW-CSE",
-            image: "images/mace.jpg",
+            image: "images/mace.png",
             summary:
                 "Macedònia de la Costa Brava",
             preview: "https://github.com/vinaysomawat/NITW-CSE",
