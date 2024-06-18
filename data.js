@@ -247,4 +247,22 @@ export const footer = [
 ];
 
 export const education = [
+    {
+        title: "B",
+        duration: "",
+        subtitle: "",
+        details: [],
+        tags: [
+            "",
+        ],
+        icon: "graduation-cap",
+    },
+    {
+        title: "",
+        duration: "",
+        subtitle: "",
+        details: [],
+        tags: ["", ""],
+        icon: "",
+    },
 ];
