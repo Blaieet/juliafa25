@@ -88,8 +88,17 @@ export const projects = {
                 "'El Marquès fumat', Crêpe de Mortadela fumada amb toc d'espècies del Litoral",
             preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
             techStack: [""],
-        },    ],
+        },
+    ],
     androidProjects: [
+        {
+            projectName: "NITW-CSE",
+            image: "images/mace.png",
+            summary:
+                "Macedònia de la Costa Brava",
+            preview: "https://github.com/vinaysomawat/NITW-CSE",
+            techStack: [""],
+        },
         {
             projectName: "NITW-CSE",
             image: "images/mace.png",
