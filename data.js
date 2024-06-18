@@ -3,7 +3,7 @@ export const bio = [
     `L'esdeveniment que ens acompanya avui és ni més ni menys que l'aniversari de l'actual reina de la casa, la Júlia, que en fa 25.`,
     `Nascuda l'any 1999, actualment es considera la millor persona en entrar a la vida d'en Blai Ras, fundador d'aquest humil restaurant.
     Espero que pugueu disfrutar de la vetllada!`,
-    "- Restaurant Bunyol",
+    "- Restaurant el Bunyol",
 ];
 
 export const skills = [
@@ -75,37 +75,28 @@ export const projects = {
     softwareProjects: [
         {
             projectName: "Pizza Ordering ChatBot",
-            image: "images/fcrepe.webp",
+            image: "images/pizzaorderchatbot.png",
             summary:
                 "'La mimada', Crêpe de formatge curat d'ovella amb embotit vegà",
             preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-            techStack: [""],
+            techStack: ["Dailogflow", "Firebase"],
         },
         {
             projectName: "WhatsApp-Bot",
-            image: "images/crepe.png",
+            image: "images/whatsappbot.jpg",
             summary:
                 "'El Marquès fumat', Crêpe de Mortadela fumada amb toc d'espècies del Litoral",
             preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
             techStack: [""],
-        },
-    ],
+        },    ],
     androidProjects: [
         {
             projectName: "NITW-CSE",
             image: "images/nitwcse.jpg",
             summary:
-                "The Application display details of Department courses, reference books, research, publication and faculty profile.",
+                "Macedònia de la Costa Brava",
             preview: "https://github.com/vinaysomawat/NITW-CSE",
-            techStack: ["JAVA", "XML", "Android"],
-        },
-        {
-            projectName: "CareerHigh-App",
-            image: "images/carrerhigh.png",
-            summary:
-                "The Application display the webpages of website careerhigh.in in android devices.",
-            preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-            techStack: ["JAVA", "XML", "Android"],
+            techStack: [""],
         },
     ],
     freelanceProjects: [
