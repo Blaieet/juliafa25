@@ -245,3 +245,6 @@ export const footer = [
         ],
     },
 ];
+
+export const education = [
+];
