@@ -66,9 +66,9 @@ export const projects = {
         },
         {
             projectName: "Daus de patata amb herbes de l'Empordà",
-            image: "images/bacalo.png",
+            image: "images/bacalao.png",
             summary:
-                "Bunyols de Bacallà del Mercat de Sant Anton",
+                "Bunyols de Bacallà del Mercat de Sant Antoni",
             preview: "https://github.com/vinaysomawat/Travographer-Portal",
             techStack: [""],
         }
@@ -76,7 +76,7 @@ export const projects = {
     softwareProjects: [
         {
             projectName: "Pizza Ordering ChatBot",
-            image: "images/pizzaorderchatbot.png",
+            image: "images/fcrepe.webp",
             summary:
                 "'La mimada', Crêpe de formatge curat d'ovella amb embotit vegà",
             preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
@@ -84,7 +84,7 @@ export const projects = {
         },
         {
             projectName: "WhatsApp-Bot",
-            image: "images/whatsappbot.jpg",
+            image: "images/crepe.png",
             summary:
                 "'El Marquès fumat', Crêpe de Mortadela fumada amb toc d'espècies del Litoral",
             preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
@@ -93,7 +93,7 @@ export const projects = {
     androidProjects: [
         {
             projectName: "NITW-CSE",
-            image: "images/nitwcse.jpg",
+            image: "images/mace.png",
             summary:
                 "Macedònia de Berga",
             preview: "https://github.com/vinaysomawat/NITW-CSE",
@@ -126,7 +126,7 @@ export const experience = [
     },
     {
         title: "'Vull intentar-ho'",
-        duration: "24 de Gemer de 2024",
+        duration: "24 de Gener de 2024",
         subtitle: "Tremendu",
         details: [
             `Sembla una tonteria però va ser l'inci del que ens ha portat fins aquí.
