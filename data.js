@@ -3,7 +3,7 @@ export const bio = [
     `L'esdeveniment que ens acompanya avui és ni més ni menys que l'aniversari de l'actual reina de la casa, la Júlia, que en fa 25.`,
     `Nascuda l'any 1999, actualment es considera la millor persona en entrar a la vida d'en Blai Ras, fundador d'aquest humil restaurant.
     Espero que pugueu disfrutar de la vetllada!`,
-    "- Restaurant el Bunyol",
+    "- Restaurant Bunyol",
 ];
 
 export const skills = [
@@ -93,19 +93,37 @@ export const projects = {
     androidProjects: [
         {
             projectName: "NITW-CSE",
-            image: "images/mace.png",
+            image: "images/nitwcse.jpg",
             summary:
-                "Macedònia de la Costa Brava",
+                "The Application display details of Department courses, reference books, research, publication and faculty profile.",
             preview: "https://github.com/vinaysomawat/NITW-CSE",
-            techStack: [""],
+            techStack: ["JAVA", "XML", "Android"],
         },
         {
-            projectName: "NITW-CSE",
-            image: "images/mace.png",
+            projectName: "CareerHigh-App",
+            image: "images/carrerhigh.png",
             summary:
-                "Macedònia de la Costa Brava",
-            preview: "https://github.com/vinaysomawat/NITW-CSE",
-            techStack: [""],
+                "The Application display the webpages of website careerhigh.in in android devices.",
+            preview: "https://github.com/vinaysomawat/CareerHigh-Android",
+            techStack: ["JAVA", "XML", "Android"],
+        },
+    ],
+    freelanceProjects: [
+        {
+            projectName: "SnylloAir.com",
+            image: "images/snylloair.png",
+            summary:
+                "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
+            preview: "https://www.snylloair.com/",
+            techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+        },
+        {
+            projectName: "Delivery+",
+            image: "images/AM-Logo-.png",
+            summary: "Android Application to display website in android devices.",
+            preview:
+                "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
+            techStack: ["Android", "JAVA", "Play Store"],
         },
     ],
 };
