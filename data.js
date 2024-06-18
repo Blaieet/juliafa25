@@ -79,7 +79,7 @@ export const projects = {
             summary:
                 "'La mimada', Crêpe de formatge curat d'ovella amb embotit vegà",
             preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-            techStack: ["Dailogflow", "Firebase"],
+            techStack: [""],
         },
         {
             projectName: "WhatsApp-Bot",
