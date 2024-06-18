@@ -3,7 +3,7 @@ export const bio = [
     `L'esdeveniment que ens acompanya avui és ni més ni menys que l'aniversari de l'actual reina de la casa, la Júlia, que en fa 25.`,
     `Nascuda l'any 1999, actualment es considera la millor persona en entrar a la vida d'en Blai Ras, fundador d'aquest humil restaurant.
     Espero que pugueu disfrutar de la vetllada!`,
-    "- Restaurant el Bunyol",
+    "- Restaurant Bunyol",
 ];
 
 export const skills = [
@@ -68,7 +68,7 @@ export const projects = {
             projectName: "Daus de patata amb herbes de l'Empordà",
             image: "images/bacalo.png",
             summary:
-                "Bunyols de Bacallà del Mercat de Sant Anton"i,
+                "Bunyols de Bacallà del Mercat de Sant Anton",
             preview: "https://github.com/vinaysomawat/Travographer-Portal",
             techStack: [""],
         }
