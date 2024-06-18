@@ -1,47 +1,53 @@
 export const bio = [
-    "Benvinguts a Restaurant Bunyol.",
-    `L'esdeveniment que ens acompanya avui és ni més ni menys que l'aniversari de l'actual reina de la casa, la Júlia, que en fa 25.`,
-    `Nascuda l'any 1999, actualment es considera la millor persona en entrar a la vida d'en Blai Ras, fundador d'aquest humil restaurant.
-    Espero que pugueu disfrutar de la vetllada!`,
-    "- Restaurant el Bunyol",
+    "Hello there, This is Vinay Somawat.",
+    `Experienced Frontend Software Engineer with a strong track record of successfully upgrading applications, optimizing performance, and delivering innovative solutions.`,
+    `Eager to apply my technical expertise and in-depth
+    product understanding to drive impactful contributions and exceed expectations in challenging projects.`,
+    "Thanks for taking the time to learn a little about me!",
 ];
 
 export const skills = [
     {
+        title: "Languages",
+        skillName: "JavaScript, TypeScript",
+        color: "1",
+        percentage: "80",
+    },
+    {
         title: "Frameworks/Libraries",
-        skillName: "Vegades que s'ha arribat tard",
+        skillName: "Angular, RxJS, NGXS",
         color: "6",
         percentage: "70",
     },
     {
         title: "Design",
-        skillName: "Cul",
+        skillName: "HTML, Bootstrap, Tailwind",
         color: "4",
-        percentage: "100",
+        percentage: "70",
     },
     {
         title: "Version Control",
-        skillName: "Quantitat de 'puto nen' dits",
+        skillName: "GitHub, JIRA, Bitbucket",
         color: "7",
-        percentage: "10",
+        percentage: "70",
     },
     {
         title: "Tools",
-        skillName: "Mímica",
+        skillName: "Postman, Chrome DevTools",
         color: "3",
-        percentage: "15",
+        percentage: "80",
     },
     {
         title: "Analytics",
-        skillName: "Ping-Pong",
+        skillName: "CleverTap, Countly",
         color: "5",
-        percentage: "100",
+        percentage: "50",
     },
     {
         title: "IDE",
-        skillName: "Quantitat de vegades que ens hem enfadat",
+        skillName: "VS Code",
         color: "6",
-        percentage: "0",
+        percentage: "70",
     },
 ];
 
@@ -49,35 +55,43 @@ export const projects = {
     webProjects: [
         {
             projectName: "Programming Diaries",
-            image: "images/hummus.png",
+            image: "images/programmingdiaries.png",
             summary:
-                "Delicios Hummus del país amb excel·lents crostons per acompanyar",
+                "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
             preview: "https://programmingdiaries.herokuapp.com/",
-            techStack: [""],
+            techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
         },
         {
             projectName: "Find Your Bank",
-            image: "images/buti.png",
+            image: "images/findyourbank.png",
             summary:
-                "Llonces de botifarra curada d'ou de gallines lliures",
+                "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
             preview: "https://clever-fermi-0d5d76.netlify.app",
-            techStack: [""],
+            techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
         },
         {
-            projectName: "Daus de patata amb herbes de l'Empordà",
-            image: "images/brava.png",
+            projectName: "Web Portfolio",
+            image: "images/portfolio.png",
             summary:
                 "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
             preview: "https://github.com/vinaysomawat/Travographer-Portal",
-            techStack: [""],
-        }
+            techStack: ["HTML", "Bootstrap", "JavaScript"],
+        },
+        {
+            projectName: "Resume Builder",
+            image: "images/resume-builder.png",
+            summary:
+                "Browser based editor to build and download Resumes in a customizable templates.",
+            preview: "https://vinaysomawat.github.io/Resume-Builder",
+            techStack: ["HTML", "Bootstrap", "JavaScript"],
+        },
     ],
     softwareProjects: [
         {
             projectName: "Pizza Ordering ChatBot",
             image: "images/pizzaorderchatbot.png",
             summary:
-                "'La mimada', Crêpe de formatge curat d'ovella amb embotit vegà",
+                "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
             preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
             techStack: ["Dailogflow", "Firebase"],
         },
@@ -85,18 +99,35 @@ export const projects = {
             projectName: "WhatsApp-Bot",
             image: "images/whatsappbot.jpg",
             summary:
-                "'El Marquès fumat', Crêpe de Mortadela fumada amb toc d'espècies del Litoral",
+                "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
             preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-            techStack: [""],
-        },    ],
+            techStack: ["Selenium", "Chrome Webdriver", "Python"],
+        },
+        {
+            projectName: "Bill Generator",
+            image: "images/billgenerator.png",
+            summary:
+                "GUI to transfer data to excel sheets and generate bills on the local shops.",
+            preview: "https://github.com/vinaysomawat/Bill-Generator",
+            techStack: ["Tkinter", "Openxlpy", "Python"],
+        },
+    ],
     androidProjects: [
         {
             projectName: "NITW-CSE",
             image: "images/nitwcse.jpg",
             summary:
-                "Macedònia de la Costa Brava",
+                "The Application display details of Department courses, reference books, research, publication and faculty profile.",
             preview: "https://github.com/vinaysomawat/NITW-CSE",
-            techStack: [""],
+            techStack: ["JAVA", "XML", "Android"],
+        },
+        {
+            projectName: "CareerHigh-App",
+            image: "images/carrerhigh.png",
+            summary:
+                "The Application display the webpages of website careerhigh.in in android devices.",
+            preview: "https://github.com/vinaysomawat/CareerHigh-Android",
+            techStack: ["JAVA", "XML", "Android"],
         },
     ],
     freelanceProjects: [
@@ -121,124 +152,148 @@ export const projects = {
 
 export const experience = [
     {
-        title: "'Avui'",
-        duration: "19 de Juny de 2024",
-        subtitle: "Bunyol",
+        title: "Shiprocket (Bigfoot Solution Private Limited)",
+        duration: "September 2022 - Present",
+        subtitle: "Software Engineer",
         details: [
-            `T'estimo, espero que t'agradi. Això només fa que començar.`
+            "Working in support and escalation team."
         ],
-        tags: [""],
-        icon: "birthday-cake",
+        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+        icon: "truck ",
     },
     {
-        title: "'Per mi ja sóm novios'",
-        duration: "14 d'Abril de 2024",
-        subtitle: "Girasol",
+        title: "Biofourmis India Private Limited",
+        duration: "April 2022 - Jul 2023",
+        subtitle: "Software Engineer",
         details: [
-            `El que portava somiant es feia realitat. L'alegria de veure que si era possible,
-            el que s'havia que era l'inici de veritat.`
+            `Implemented microfrontends using the Module Federation Plugin in Angular.
+            Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
+            `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
+            recognition with the Biofourmis Bravo award in Q1, 2023.`,
+            `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
+            `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
+            `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
+            `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
+            management, and enhanced application performance.`,
+            `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
+            `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
+            resulting in reduced audio issues and increased user satisfaction.`,
+            `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
+            and enhancing features.`,
         ],
-        tags: [""],
-        icon: "repeat",
-    },
-    {
-        title: "'Vull intentar-ho'",
-        duration: "24 de Gemer de 2024",
-        subtitle: "Tremendu",
-        details: [
-            `Sembla una tonteria però va ser l'inci del que ens ha portat fins aquí.
-            Gràcies per confiar amb mi.`
-        ],
-        tags: ["'M'he cosit la pell del cor, He sobreviscut l'amor'"],
-        icon: "ambulance",
-    },
-    {
-        title: "Dia C",
-        duration: "16 de Desembre de 2023",
-        subtitle: "C de crisis",
-        details: [
-            `El dia que ho va canviar tot. Pels dos, però especialment per mi. No sabré mai el dolor que vas viure,
-            pèro segueixo mantenint tot el que et vaig prometre. 
-            `
-        ],
-        tags: ["'I si hem de tornar a començar serà quan tot exploti, Potser res és com era abans ni gira igual. Qui sap si quedarà bonic, o si tenim a prop la fi No em fa por el futur'"],
+        tags: ["JavaScript", "Angular", "RxJS", "NGXS", "TypeScript", "RxState", "Webpack", "Optimization"],
         icon: "heartbeat",
     },
     {
-        title: "Noviazgo",
-        duration: "27 de Juliol de 2022",
-        subtitle: "Malniu - Estany dels Emparellats",
+        title: "Novopay Solutions Private Limited",
+        duration: "June 2020 - April 2022",
+        subtitle: "Software Engineer",
         details: [
-            `Quin viatjet i què a gust vaig estar. Quin valor de treure't la conversa.`
+            `Implemented AePS Services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements,
+            and Money transfer.`,
+            `Implemented QR Code integration for retailer wallet money loading, Clevertap events for user action tracking,
+            Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.`,
+            `Developed retailer QR code system for seamless money loading into wallets, resulting in improved user transactions.`,
+            `Achieved 70 percent code coverage of the entire application by writing unit tests for legacy code.`,
         ],
-        tags: ["No, tu no anaves a fer-ho 🙃"],
-        icon: "sun-o",
+        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
+        icon: "qrcode",
     },
     {
-        title: "Primera Cita",
-        duration: "1 d'Abril 2022",
-        subtitle: "Bar de la Xime",
+        title: "ThinkPedia LLP",
+        duration: "May 2019 - June 2019",
+        subtitle: "SDE Intern",
         details: [
-            `Segurament la primera vegada que no vas arribar exageradament tard.
-            Vens d'Esplugues? Jo visc aqui al costat, anem al Sant Bartomeu?
-            - No.`,
+            `Developed a customer web application for social media management, supporting the advertisement domain.`,
         ],
-        tags: ["Si la vida és un incendi, cantarem sota la pluja"],
-        icon: "heart",
-    },
-    {
-        title: "Match",
-        duration: "Març 10, 2022",
-        subtitle: "Amor a primera vista",
-        details: [
-            `Aquella foto en el penya segat a mi em va enamorar. Quins rinxolssss.`,
-        ],
-        tags: ["LSCLGDV"],
-        icon: "hand-o-right",
+        tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
+        icon: "group",
     },
 ];
 
-
+export const education = [
+    {
+        title: "B.Tech. in Computer Science and Engineering",
+        duration: "2016 - 2020",
+        subtitle: "National Institute of Technology, Warangal",
+        details: [],
+        tags: [
+            "Data Structures & Algorithms",
+            "Operating Systems",
+            "Database Management System",
+            "Computer Networks",
+            "Compiler Designing",
+            "Cloud Computing",
+        ],
+        icon: "graduation-cap",
+    },
+    {
+        title: "Class 12th in Science and Mathematics",
+        duration: "",
+        subtitle: "Board of Secondary Education, Rajasthan",
+        details: [],
+        tags: ["Physics", "Chemistry", "Mathematics"],
+        icon: "book",
+    },
+];
 
 export const footer = [
     {
-        label: "Cosetes",
+        label: "Dev Profiles",
         data: [
             {
-                text: "Mode Blanc / Negre",
+                text: "Stackoverflow",
+                link: "https://stackoverflow.com/users/8461233/vinay-somawat",
+            },
+            {
+                text: "GitHub",
+                link: "https://github.com/vinaysomawat",
+            },
+            {
+                text: "LeetCode",
+                link: "https://leetcode.com/somawatvinay/",
+            },
+        ],
+    },
+    {
+        label: "Resources",
+        data: [
+            {
+                text: "Enable Dark/Light Mode",
                 func: "enableDarkMode()",
             },
             {
                 text: "Print this page",
                 func: "window.print()",
             },
+            {
+                text: "Clone this page",
+                link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+            },
+        ],
+    },
+    {
+        label: "Social Profiles",
+        data: [
+            {
+                text: "Linkedin",
+                link: "https://www.linkedin.com/in/vinaysomawat/",
+            },
+            {
+                text: "Twitter",
+                link: "https://twitter.com/thesigmakid",
+            },
+            {
+                text: "Buy me a coffee",
+                link: "https://www.buymeacoffee.com/r194dME8y",
+            },
         ],
     },
     {
         label: "copyright-text",
         data: [
-            "Fet amb amor, &hearts; per Blai Ras.",
+            "Made with &hearts; by Vinay Somawat.",
+            "&copy; No Copyrights. Feel free to use this template.",
         ],
-    },
-];
-
-export const education = [
-    {
-        title: "B",
-        duration: "",
-        subtitle: "",
-        details: [],
-        tags: [
-            "",
-        ],
-        icon: "graduation-cap",
-    },
-    {
-        title: "",
-        duration: "",
-        subtitle: "",
-        details: [],
-        tags: ["", ""],
-        icon: "",
     },
 ];
