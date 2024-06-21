@@ -452,6 +452,7 @@ import { URLs } from './user-data/urls.js';
   populateProjects(androidProjects, "android-projects");
   
   populateExp_Edu(experience, "experience");
+  populateExp_Edu(education, "education");
 
   
   populateLinks(footer, "footer");
