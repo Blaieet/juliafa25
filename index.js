@@ -357,7 +357,8 @@ import { URLs } from './user-data/urls.js';
     }
   
     let divTimelineIcon = document.createElement("div");
-    divTimelineIcon.className = "timeline-icon color-2";
+    divTimelineIcon.className = "timeline-icon";
+    divTimelineIcon.style = "color: #8e7cc3"
   
     let divTimelineEntryInner = document.createElement("div");
     divTimelineEntryInner.className = "timeline-entry-inner";
