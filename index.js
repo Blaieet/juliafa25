@@ -358,7 +358,7 @@ import { URLs } from './user-data/urls.js';
   
     let divTimelineIcon = document.createElement("div");
     divTimelineIcon.className = "timeline-icon";
-    divTimelineIcon.style = "color: #8e7cc3"
+
   
     let divTimelineEntryInner = document.createElement("div");
     divTimelineEntryInner.className = "timeline-entry-inner";
@@ -453,8 +453,6 @@ import { URLs } from './user-data/urls.js';
   populateProjects(androidProjects, "android-projects");
   
   populateExp_Edu(experience, "experience");
-  populateExp_Edu(education, "education");
-
   
   populateLinks(footer, "footer");
   
